@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Remove margins and padding from the list */
+ul {
+    margin: 0;
+    padding: 0;
+  }
+
+/* Style grocery container */
+.groceries {
+    width: 80%;
+    min-height: 100px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 10px 10px 24px 0 rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* Style pencil icon */
+i {
+    font-size: 1rem;
+}
+
+/* Style header */
+.header-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    margin-top: 1em;
+}
+
+/* Style list items */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 9px 15px;
+    font-size: 1rem;
+    list-style-type: none;
+}
+
+ul li.strikeOut {
+    background: #F5F5F5;
+    color: #FFFFFF;
+    text-decoration: line-through;
+}
+
+ul li:nth-child(odd) {
+    background: #ECECEC;
+  }
+
+ul li:hover {
+    background-color: #888888;
+}
+
+/* Style close button */
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 9px 15px;
+}
+  
+.close:hover {
+    background-color: #df4759;
+    color: white;
+}
